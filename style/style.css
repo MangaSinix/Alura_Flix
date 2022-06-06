@@ -1,0 +1,277 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Macondo', cursive;
+}
+
+body{
+    background-color: #00030c;
+}
+
+header{
+    width: 1440px;
+    height: 650px;
+    margin: 0 auto;
+    color:white;
+    background-image: url("../IMG/Background.png");
+    background-repeat: no-repeat;
+
+}
+
+.box-informacao{
+    width: 600px;
+    height: 550px;
+    margin-left: 5%;
+}
+.imagem-main{
+    text-align: center;
+}
+.box-pai{
+    box-sizing: border-box;
+
+}
+.box-informacao-title h1{
+    font-size: 28px;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 20px;
+}
+
+.box {
+    width: 512px;
+    height: 56px;
+    background-color: #0073ff;
+    margin: 15px auto;
+    cursor:pointer;
+    border-radius: 5px;
+}
+
+.box:hover{
+    background-color: #00f2fa;   
+}
+
+.texto a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 9%;
+}
+.texto-alura a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 10%;
+}
+
+.boxb{
+    width: 512px;
+    height: 56px;
+    border: 1px solid #ffffff;
+    margin: 10px auto;
+    cursor:pointer;
+    border-radius: 5px;
+    transition: 100ms all;
+}
+.boxb:hover{
+    background-color: #69798b;
+}   
+
+
+.texto-principal{
+    height: 0px;
+    background: rgb(122, 122, 122);
+    z-index: 0;
+    transition: 500ms;
+    position: relative;
+    
+}
+.texto-principal:hover{
+    height: 40px;
+    border: 4px solid rgb(88, 82, 82);
+    background: rgb(0, 0, 0);
+    opacity: 0.3;
+    color: white;
+}
+.box-informacao-title p{
+    text-align: center;
+}
+
+    
+/* Header **/
+
+
+.sessao-main{
+    width: 1440px;
+    height: 650px;
+    margin: 60px auto;
+    display: static;
+}
+
+.imagem-principal{
+    position: absolute;
+    width: 500px;
+    height: 650px;
+}
+.imagem-principal img {
+    margin: 8% auto;
+}
+.conteudo-texto{
+    position: absolute;
+    right: 120px;
+    width: 800px;
+    height: 650px;
+}
+
+.conteudo-texto h2{
+    font-size: 50px;
+    color: white;
+    margin-top: 27%;
+}
+.conteudo-texto p{
+    margin-top: 20px;
+    font-size: 25px;
+    color:rgb(88, 82, 82)
+}
+
+.sessao-two{
+    width: 1440px;
+    height: 650px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.imagem-principal-two{
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    right: 0;
+    top: 150px;
+}
+
+
+.conteudo-texto-two{
+    width: 750px;
+    height: 156px;
+    color: white;
+    font-size: 14px;
+    color:rgb(151, 149, 149);
+    position: relative;
+    top: 275px;
+    
+}
+.section-buttom{
+    width: 162.68px;
+    height: 56px; 
+    background: #167BF7;
+    border-radius: 5px;
+    text-align: center;
+    cursor:pointer;
+    margin-top: 15px;
+
+}.section-buttom:hover{
+    background-color: rgb(169, 21, 214);
+}
+.section-buttom a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 30%;
+    font-size: 19px;
+}
+
+/* Sessão tres */
+
+.sessao-three{
+    width: 1440px;
+    height: 650px;
+    margin: 20px auto;
+}
+.eletronicos{
+    color: white;
+    margin-top: 162.5px;
+    text-align: center;
+}
+.eletronicos h2{
+    font-size: 70px;
+}
+.ul-eletronicos {
+    text-align: center;
+
+
+}
+.ul-eletronicos li{
+    margin: 0 20px;
+    display: inline-block;
+    text-align: center;
+    font-size: 35px;
+    transition: 500ms all;
+}
+.ul-eletronicos li:hover{
+    cursor: pointer;
+    background-color: #167BF7;
+    border-radius: 5px;
+}
+
+/* sessao dois e meioo */
+
+.sessao-errada-main{
+    width: 1440px;
+    height: 650px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.imagem-two-main{
+    width: 550px;
+    height: 350px;
+    top: 150px;
+    position: absolute;
+}
+.texto-two-main{
+    color: white;
+    position: absolute;
+    right: 0;
+    top: 255px;
+}
+.texto-two-main h2{
+    font-size: 68px;
+}
+.texto-two-main p{
+    font-size: 25px;
+    color: rgb(126, 126, 126);
+}
+
+.footer-final{
+    width: 1440px;
+    height: 270px;
+    margin: 0 auto;
+}
+.conteudo{
+    color: white;
+  text-align: center;
+}
+.conteudo h3{
+    font-size: 55px;
+    margin-bottom: 25px;
+}
+.ul-footer li{
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 23px;
+    cursor: pointer;
+
+}.ul-footer li:hover{
+    text-decoration: underline;
+    color:#167BF7;
+}
+
+.text-final p {
+    text-align: center;
+    color: #C0C0C0;
+    font-size: 18px;
+    margin-top: 35px;
+}
